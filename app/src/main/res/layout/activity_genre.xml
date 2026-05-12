@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="50dp"
+    tools:context=".GenreActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rbAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="All genres" />
+
+        <RadioButton
+            android:id="@+id/rbJazz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jazz" />
+
+        <RadioButton
+            android:id="@+id/rbNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bReady"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:text="Start" />
+
+</LinearLayout>
